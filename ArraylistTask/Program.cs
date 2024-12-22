@@ -31,7 +31,7 @@ ArrayList returnLargerList (ArrayList list , int threshold)
 {
     ArrayList newNums = new ArrayList();
     
-    foreach(int num in numbers)
+    foreach(int num in list)
     {
         if (num > threshold)
         {
